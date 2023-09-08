@@ -9,7 +9,7 @@ from sklearn.model_selection import KFold
 from sklearn.pipeline import make_pipeline
 
 # Load the competition data
-comp_data = pd.read_csv("../competition_data.csv")
+comp_data = pd.read_csv("./competition_data.csv")
 
 # Split into training and evaluation samples
 train_data = comp_data[comp_data["ROW_ID"].isna()]
